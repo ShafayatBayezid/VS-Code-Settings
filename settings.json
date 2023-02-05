@@ -18,6 +18,7 @@
   "editor.fontLigatures": true,
   "diffEditor.codeLens": true,
   "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 500,
   "liveServer.settings.donotShowInfoMsg": true,
   "vsicons.dontShowNewVersionMessage": true,
@@ -27,6 +28,11 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "kokororin.vscode-phpfmt"
   },
+  "phpfmt.passes": [
+    "AddMissingParentheses",
+    "AlignPHPCode",
+    "SpaceAroundParentheses"
+  ],
   "[javascript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -138,4 +144,5 @@
     "terminal.ansiYellow": "#FAC03B"
 
   }
+  
 }
