@@ -31,7 +31,8 @@
   "phpfmt.passes": [
     "AddMissingParentheses",
     "AlignPHPCode",
-    "SpaceAroundParentheses"
+    "SpaceAroundParentheses",
+    "AlignDoubleArrow"
   ],
   "[javascript]": {
     "editor.formatOnSave": true,
