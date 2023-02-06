@@ -14,11 +14,10 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.mouseWheelZoom": true,
   "editor.minimap.autohide": true,
-  "editor.fontFamily": "'Fira Code','Cascadia Code'",
+  "editor.fontFamily": "'Operator Mono', 'Fira Code'",
   "editor.fontLigatures": true,
   "diffEditor.codeLens": true,
-  "editor.tabSize": 2,
-  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2, 
   "files.autoSaveDelay": 500,
   "liveServer.settings.donotShowInfoMsg": true,
   "vsicons.dontShowNewVersionMessage": true,
@@ -30,8 +29,7 @@
   },
   "phpfmt.passes": [
     "AddMissingParentheses",
-    "AlignPHPCode",
-    "SpaceAroundParentheses",
+    "AlignPHPCode", 
     "AlignDoubleArrow"
   ],
   "[javascript]": {
@@ -118,15 +116,15 @@
   //terminal
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "'Fira Code', 'Cascadia Code'",
+  "terminal.integrated.fontFamily": "'Operator Mono', 'Fira Code'",
   "workbench.colorTheme": "Learn with Sumit - Vintage",
   "workbench.iconTheme": "material-icon-theme",
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
-    "terminal.foreground": "#A89984",
-    "terminalCursor.background": "#A89984",
-    "terminalCursor.foreground": "#A89984",
+    "terminal.foreground": "#6d00cc",
+    "terminalCursor.background": "#7800b4",
+    "terminalCursor.foreground": "#7800b4",
     "terminal.ansiBlack": "#1D2021",
     "terminal.ansiBlue": "#0D6678",
     "terminal.ansiBrightBlack": "#665C54",
