@@ -14,7 +14,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.mouseWheelZoom": true,
   "editor.minimap.autohide": true,
-  "editor.fontFamily": "'Operator Mono', 'Fira Code'",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'Fira Code', 'Operator Mono'",
   "editor.fontLigatures": true,
   "diffEditor.codeLens": true,
   "editor.tabSize": 2, 
@@ -29,7 +30,6 @@
   },
   "phpfmt.passes": [
     "AddMissingParentheses",
-    "AlignPHPCode", 
     "AlignDoubleArrow"
   ],
   "[javascript]": {
@@ -74,7 +74,6 @@
   "powermode.explosions.enabled": false,
   "powermode.explosions.backgroundMode": "image",
   "explorer.confirmDelete": false,
-  "editor.fontSize": 16,
   "workbench.preferredDarkColorTheme": "Learn with Sumit - Vintage",
   "code-runner.clearPreviousOutput": true,
   "code-runner.executorMapByFileExtension": {
@@ -123,8 +122,8 @@
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
     "terminal.foreground": "#6d00cc",
-    "terminalCursor.background": "#7800b4",
-    "terminalCursor.foreground": "#7800b4",
+    "terminalCursor.background": "#6521cd",
+    "terminalCursor.foreground": "#6521cd",
     "terminal.ansiBlack": "#1D2021",
     "terminal.ansiBlue": "#0D6678",
     "terminal.ansiBrightBlack": "#665C54",
