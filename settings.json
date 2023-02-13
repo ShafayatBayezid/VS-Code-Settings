@@ -14,11 +14,13 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.mouseWheelZoom": true,
   "editor.minimap.autohide": true,
-  "editor.fontSize": 16,
-  "editor.fontFamily": "'Fira Code', 'Operator Mono'",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "'operator mono light', 'Fira Code' ",
   "editor.fontLigatures": true,
   "diffEditor.codeLens": true,
-  "editor.tabSize": 2, 
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "expand",
+  "files.autoSave": "afterDelay", 
   "files.autoSaveDelay": 500,
   "liveServer.settings.donotShowInfoMsg": true,
   "vsicons.dontShowNewVersionMessage": true,
@@ -28,9 +30,11 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "kokororin.vscode-phpfmt"
   },
+  "phpfmt.psr2": false,
   "phpfmt.passes": [
     "AddMissingParentheses",
-    "AlignDoubleArrow"
+    "AlignDoubleArrow",
+    "SpaceAroundParentheses"
   ],
   "[javascript]": {
     "editor.formatOnSave": true,
@@ -113,17 +117,17 @@
   "security.workspace.trust.untrustedFiles": "open",
   
   //terminal
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "'Operator Mono', 'Fira Code'",
-  "workbench.colorTheme": "Learn with Sumit - Vintage",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.fontFamily": "operator mono light",
+  "workbench.colorTheme": "Andromeda Italic",
   "workbench.iconTheme": "material-icon-theme",
   // terminal customization
   "workbench.colorCustomizations": {
-    "terminal.background": "#1D2021",
-    "terminal.foreground": "#6d00cc",
-    "terminalCursor.background": "#6521cd",
-    "terminalCursor.foreground": "#6521cd",
+    "terminal.background": "#222425",
+    "terminal.foreground": "#6c00ab",
+    "terminalCursor.background": "#21adcd",
+    "terminalCursor.foreground": "#21adcd",
     "terminal.ansiBlack": "#1D2021",
     "terminal.ansiBlue": "#0D6678",
     "terminal.ansiBrightBlack": "#665C54",
